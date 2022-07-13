@@ -1,0 +1,124 @@
+@font-face{
+ font-family: "Avenir Roman";
+ src: url('avenir-roman.ttf') format("truetype")
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url("bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+}
+
+.btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: rgb(59, 59, 59);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+.btn:hover{
+    background-color: rgb(121, 121, 121);
+}
+
+img{
+    max-width: 600px;
+    margin-top: 30px;
+
+}
+
+img.logo{
+    max-width: 160px;
+}
+.hero-content{
+padding-left: 80px;
+}
+
+.p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #f9f9f9;
+    margin-top: 16px;
+
+}
+
+h1 {
+ font-size: 43px;
+ line-height: 53px;
+ color: #f9f9f9;
+ margin: 20px 0 30px 0;
+ 
+
+}
+
+.preços-container {
+    display: flex;
+
+}
+.preço span {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #f9f9f9;
+    text-align: center;
+}
+.preço{
+    width: 300px;
+    max-width: 100%;
+    color: rgb(192, 192, 192);
+    
+}
+.preço p {
+    margin: 16px 0;
+}
+
+.preço:first-child{
+    display: grid;
+}
+.preço:first-child a{
+    align-self: end;
+}
+
+
+.preço a {
+    background: #0063e5;
+    display: block;
+    padding: 16.5px 14px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s ease;
+   
+}
+
+.preço a:hover{
+background-color: #0685ec;
+}
+
+
+
+.preço + .preço{
+    margin-left: 32px;
+}
